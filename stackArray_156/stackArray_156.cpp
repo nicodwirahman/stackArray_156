@@ -58,7 +58,15 @@ public:
 int main() {
 	stackArray s;
 	char ch;
-	while (true){}
+	while (true){
+		cout << endl;
+		cout << "\***stack menu***\n";
+		cout << "1.push\n";
+		cout << "2.pop\n";
+		cout << "3.dispay\n";
+		cout << "4.exit\n";
+		cout << "\nEnter your choice:";
+	}
 }
 
 
