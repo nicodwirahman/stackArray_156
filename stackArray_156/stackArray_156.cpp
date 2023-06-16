@@ -41,7 +41,11 @@ public:
 	//method for check if datas is empty
 	bool empty() {
 		return (top == -1)
-	
+	}
+
+	void display(){
+		if(empty()){
+			cout << " \nStack is empty." << endl;
 
 
 
