@@ -58,7 +58,7 @@ public:
 int main() {
 	stackArray s;
 	char ch;
-	while (true){
+	while (true) {
 		cout << endl;
 		cout << "\***stack menu***\n";
 		cout << "1.push\n";
@@ -69,12 +69,29 @@ int main() {
 		string input;
 		getline(cin, input);
 		char ch = (input.empty()) ? '0' : input[0];
-		switch(ch) {
-		case '1':{
+		switch (ch) {
+		case '1': {
+			s.push();
+			break;
+		}
+		case'2':
+			if (s.empty()) {
+				cout << "\nStackt is empty." << endl;
+				break;
+			}
+			s.pop();
+			break;
+		case '3':
+			s.display();
+			break;
+		case '4':
+			return 0;
+		default:
+			cout << "\nlnvalid choice." << endl;
+			break;
 		}
 	}
 }
-
 
 
 
