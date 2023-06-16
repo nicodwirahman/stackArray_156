@@ -40,12 +40,20 @@ public:
 
 	//method for check if datas is empty
 	bool empty() {
-		return (top == -1)
+		return (top == -1);
 	}
 
-	void display(){
-		if(empty()){
+	void display() {
+		if (empty()) {
 			cout << " \nStack is empty." << endl;
+		}
+		else {
+			for (int tmp = 0; tmp <= top; tmp++) {
+				cout << stack_array[tmp] << endl;
+			}
+		}
+	}
+};
 
 
 
