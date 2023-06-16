@@ -38,6 +38,11 @@ public:
 		top--;
 	}
 
+	//method for check if datas is empty
+	bool empty() {
+		return (top == -1)
+	
+
 
 
 
