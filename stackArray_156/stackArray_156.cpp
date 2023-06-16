@@ -55,6 +55,12 @@ public:
 	}
 };
 
+int main() {
+	stackArray s;
+	char ch;
+	while (true){}
+}
+
 
 
 
